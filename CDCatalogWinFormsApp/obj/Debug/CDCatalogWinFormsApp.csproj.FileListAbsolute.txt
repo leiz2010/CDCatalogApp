@@ -1,0 +1,92 @@
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe.config
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.dll
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.dll
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.pdb
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.xml
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddAlbumForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddSongForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.MainForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.Properties.Resources.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SearchForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csproj.GenerateResource.Cache
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.ResultsListForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.PlayListForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateAlbumSongForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateItemForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AlbumDetailForm.resources
+C:\Users\Blake\documents\visual studio 2012\Projects\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SongDetialForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe.config
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.dll
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.dll
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.pdb
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.xml
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AlbumDetailForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddAlbumForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddSongForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.MainForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.ResultsListForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.PlayListForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.Properties.Resources.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SearchForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateAlbumSongForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateItemForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SongDetialForm.resources
+C:\Users\Theseus\Desktop\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csproj.GenerateResource.Cache
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe.config
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.dll
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.dll
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.pdb
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.xml
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AlbumDetailForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddAlbumForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddSongForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.MainForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.ResultsListForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.PlayListForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.Properties.Resources.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SearchForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateAlbumSongForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateItemForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SongDetialForm.resources
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csproj.GenerateResource.Cache
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Desktop\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe.config
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.exe
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogWinFormsApp.pdb
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.dll
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.dll
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\CDCatalogDataAccess.pdb
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\bin\Debug\EntityFramework.xml
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csprojResolveAssemblyReference.cache
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AlbumDetailForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddAlbumForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.AddSongForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.MainForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.ResultsListForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.PlayListForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.Properties.Resources.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SearchForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateAlbumSongForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.RateItemForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.SongDetialForm.resources
+C:\Users\Theseus\Documents\BC courses\C_Sharp_Capstone_project\CDCatalogWinFormsApp\CDCatalogWinFormsApp\obj\Debug\CDCatalogWinFormsApp.csproj.GenerateResource.Cache

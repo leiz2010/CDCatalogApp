@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CDCatalogModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="CDCatalogModelStoreContainer">
+    <EntitySet Name="Album" EntityType="CDCatalogModel.Store.Album" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Artist" EntityType="CDCatalogModel.Store.Artist" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Genre" EntityType="CDCatalogModel.Store.Genre" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Song" EntityType="CDCatalogModel.Store.Song" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="AlbumByGenre" EntityType="CDCatalogModel.Store.AlbumByGenre" store:Type="Views" store:Schema="dbo" store:Name="AlbumByGenre">
+      <DefiningQuery>SELECT 
+      [AlbumByGenre].[GenreID] AS [GenreID], 
+      [AlbumByGenre].[GenreName] AS [GenreName], 
+      [AlbumByGenre].[AlbumID] AS [AlbumID]
+      FROM [dbo].[AlbumByGenre] AS [AlbumByGenre]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="AlbumSongs" EntityType="CDCatalogModel.Store.AlbumSongs" store:Type="Views" store:Schema="dbo" store:Name="AlbumSongs">
+      <DefiningQuery>SELECT 
+      [AlbumSongs].[AlbumYear] AS [AlbumYear], 
+      [AlbumSongs].[AlbumTitle] AS [AlbumTitle], 
+      [AlbumSongs].[SongTitle] AS [SongTitle], 
+      [AlbumSongs].[ArtistID] AS [ArtistID], 
+      [AlbumSongs].[SongTrackNumber] AS [SongTrackNumber], 
+      [AlbumSongs].[GenreID] AS [GenreID], 
+      [AlbumSongs].[SongTrackLength] AS [SongTrackLength], 
+      [AlbumSongs].[SongRating] AS [SongRating], 
+      [AlbumSongs].[SongID] AS [SongID], 
+      [AlbumSongs].[AlbumID] AS [AlbumID]
+      FROM [dbo].[AlbumSongs] AS [AlbumSongs]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Album_Artist" Association="CDCatalogModel.Store.FK_Album_Artist">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="Album" EntitySet="Album" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Song_Album" Association="CDCatalogModel.Store.FK_Song_Album">
+      <End Role="Album" EntitySet="Album" />
+      <End Role="Song" EntitySet="Song" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Song_Artist" Association="CDCatalogModel.Store.FK_Song_Artist">
+      <End Role="Artist" EntitySet="Artist" />
+      <End Role="Song" EntitySet="Song" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Song_Genre" Association="CDCatalogModel.Store.FK_Song_Genre">
+      <End Role="Genre" EntitySet="Genre" />
+      <End Role="Song" EntitySet="Song" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="AlbumID" />
+    </Key>
+    <Property Name="AlbumID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AlbumYear" Type="int" Nullable="false" />
+    <Property Name="ArtistID" Type="int" Nullable="false" />
+    <Property Name="AlbumTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AlbumRating" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="ArtistID" />
+    </Key>
+    <Property Name="ArtistID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ArtistName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="GenreID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="GenreName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Song">
+    <Key>
+      <PropertyRef Name="SongID" />
+    </Key>
+    <Property Name="SongID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SongTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ArtistID" Type="int" Nullable="false" />
+    <Property Name="AlbumID" Type="int" Nullable="false" />
+    <Property Name="SongTrackNumber" Type="int" Nullable="false" />
+    <Property Name="GenreID" Type="int" Nullable="false" />
+    <Property Name="SongTrackLength" Type="int" Nullable="false" />
+    <Property Name="SongRating" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'CDCatalog.dbo.AlbumByGenre' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="AlbumByGenre">
+    <Key>
+      <PropertyRef Name="GenreID" />
+      <PropertyRef Name="GenreName" />
+      <PropertyRef Name="AlbumID" />
+    </Key>
+    <Property Name="GenreID" Type="int" Nullable="false" />
+    <Property Name="GenreName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AlbumID" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'CDCatalog.dbo.AlbumSongs' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="AlbumSongs">
+    <Key>
+      <PropertyRef Name="AlbumYear" />
+      <PropertyRef Name="AlbumTitle" />
+      <PropertyRef Name="SongTitle" />
+      <PropertyRef Name="ArtistID" />
+      <PropertyRef Name="SongTrackNumber" />
+      <PropertyRef Name="GenreID" />
+      <PropertyRef Name="SongTrackLength" />
+      <PropertyRef Name="SongRating" />
+      <PropertyRef Name="SongID" />
+      <PropertyRef Name="AlbumID" />
+    </Key>
+    <Property Name="AlbumYear" Type="int" Nullable="false" />
+    <Property Name="AlbumTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SongTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ArtistID" Type="int" Nullable="false" />
+    <Property Name="SongTrackNumber" Type="int" Nullable="false" />
+    <Property Name="GenreID" Type="int" Nullable="false" />
+    <Property Name="SongTrackLength" Type="int" Nullable="false" />
+    <Property Name="SongRating" Type="int" Nullable="false" />
+    <Property Name="SongID" Type="int" Nullable="false" />
+    <Property Name="AlbumID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Album_Artist">
+    <End Role="Artist" Type="CDCatalogModel.Store.Artist" Multiplicity="1" />
+    <End Role="Album" Type="CDCatalogModel.Store.Album" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="ArtistID" />
+      </Principal>
+      <Dependent Role="Album">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Song_Album">
+    <End Role="Album" Type="CDCatalogModel.Store.Album" Multiplicity="1" />
+    <End Role="Song" Type="CDCatalogModel.Store.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Album">
+        <PropertyRef Name="AlbumID" />
+      </Principal>
+      <Dependent Role="Song">
+        <PropertyRef Name="AlbumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Song_Artist">
+    <End Role="Artist" Type="CDCatalogModel.Store.Artist" Multiplicity="1" />
+    <End Role="Song" Type="CDCatalogModel.Store.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="ArtistID" />
+      </Principal>
+      <Dependent Role="Song">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Song_Genre">
+    <End Role="Genre" Type="CDCatalogModel.Store.Genre" Multiplicity="1" />
+    <End Role="Song" Type="CDCatalogModel.Store.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="GenreID" />
+      </Principal>
+      <Dependent Role="Song">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
